@@ -46,6 +46,10 @@ sh pgpro-repo-add.sh && apt update && apt-get install postgrespro-1c-15
 ```
 sudo -i -u postgres /opt/pgpro/1c-15/bin/psql -U postgres -c "alter user postgres with password 'тут_вводим_пароль';" 
 ```
+Проверяем запуск службы postgrespro-1c-{14,15,16}
+```
+systemctl start postgrespro-1c-15
+```
 
 ## 3. Настройки на Master
 
