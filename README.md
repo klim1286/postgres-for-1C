@@ -48,7 +48,7 @@ sudo -i -u postgres /opt/pgpro/1c-15/bin/psql -U postgres -c "alter user postgre
 ```
 Проверяем запуск службы postgrespro-1c-{14,15,16}
 ```
-systemctl start postgrespro-1c-15
+systemctl status postgrespro-1c-15
 ```
 
 ## 3. Настройки на Master
