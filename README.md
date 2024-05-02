@@ -36,7 +36,7 @@ wget https://repo.postgrespro.ru/1c/1c-15/keys/pgpro-repo-add.sh
 или скачать из этого репозитория, были случае когда путь к скрипту менялся.
 
 ```
-wget -O pgpro-repo-add.sh https://github.com/klim1286/postgres-for-1C/blob/main/pgpro-repo-add-1c-15.sh
+wget -O pgpro-repo-add.sh https://raw.githubusercontent.com/klim1286/postgres-for-1C/main/pgpro-repo-add-1c-15.sh
 ```
 Запускаем скрипт, обновляем репозиторий и устанавливаем postgrespro
 ```
